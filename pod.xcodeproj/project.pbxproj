@@ -14,7 +14,8 @@
 		699F61151CD87C690064C6B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699F61131CD87C690064C6B3 /* LaunchScreen.storyboard */; };
 		699F61201CD87C690064C6B3 /* podTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F611F1CD87C690064C6B3 /* podTests.swift */; };
 		699F612B1CD87C690064C6B3 /* podUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F612A1CD87C690064C6B3 /* podUITests.swift */; };
-		699F61391CD87C880064C6B3 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F61381CD87C880064C6B3 /* People.swift */; };
+		699F613B1CD87F680064C6B3 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F613A1CD87F680064C6B3 /* People.swift */; };
+		699F613E1CD880EE0064C6B3 /* yxb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F613D1CD880EE0064C6B3 /* yxb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		699F61261CD87C690064C6B3 /* podUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		699F612A1CD87C690064C6B3 /* podUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podUITests.swift; sourceTree = "<group>"; };
 		699F612C1CD87C690064C6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		699F61381CD87C880064C6B3 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		699F613A1CD87F680064C6B3 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		699F613D1CD880EE0064C6B3 /* yxb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yxb.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,6 @@
 		699F60FE1CD87C690064C6B3 = {
 			isa = PBXGroup;
 			children = (
-				699F61381CD87C880064C6B3 /* People.swift */,
 				699F61091CD87C690064C6B3 /* pod */,
 				699F611E1CD87C690064C6B3 /* podTests */,
 				699F61291CD87C690064C6B3 /* podUITests */,
@@ -100,12 +101,14 @@
 		699F61091CD87C690064C6B3 /* pod */ = {
 			isa = PBXGroup;
 			children = (
+				699F613C1CD880DF0064C6B3 /* yxb */,
 				699F610A1CD87C690064C6B3 /* AppDelegate.swift */,
 				699F610C1CD87C690064C6B3 /* ViewController.swift */,
 				699F610E1CD87C690064C6B3 /* Main.storyboard */,
 				699F61111CD87C690064C6B3 /* Assets.xcassets */,
 				699F61131CD87C690064C6B3 /* LaunchScreen.storyboard */,
 				699F61161CD87C690064C6B3 /* Info.plist */,
+				699F613A1CD87F680064C6B3 /* People.swift */,
 			);
 			path = pod;
 			sourceTree = "<group>";
@@ -126,6 +129,14 @@
 				699F612C1CD87C690064C6B3 /* Info.plist */,
 			);
 			path = podUITests;
+			sourceTree = "<group>";
+		};
+		699F613C1CD880DF0064C6B3 /* yxb */ = {
+			isa = PBXGroup;
+			children = (
+				699F613D1CD880EE0064C6B3 /* yxb.swift */,
+			);
+			path = yxb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				699F610D1CD87C690064C6B3 /* ViewController.swift in Sources */,
-				699F61391CD87C880064C6B3 /* People.swift in Sources */,
+				699F613B1CD87F680064C6B3 /* People.swift in Sources */,
 				699F610B1CD87C690064C6B3 /* AppDelegate.swift in Sources */,
+				699F613E1CD880EE0064C6B3 /* yxb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +500,7 @@
 				699F61311CD87C690064C6B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		699F61321CD87C690064C6B3 /* Build configuration list for PBXNativeTarget "podTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				699F61341CD87C690064C6B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		699F61351CD87C690064C6B3 /* Build configuration list for PBXNativeTarget "podUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				699F61371CD87C690064C6B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
